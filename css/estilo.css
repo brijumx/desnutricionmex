@@ -1,0 +1,426 @@
+ /*formateamos valores */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+/* header */
+header{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 83px;
+	/*background: rgba(255,255,6,.5);*/
+	background: url(../img/cabezote.jpg);
+}
+
+#logo{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 80px;
+	height: 47px;
+	/*background: rgba(0,0,255,.5);*/
+}
+/* fin header */
+
+
+
+/*Barra de navegación*/
+
+nav{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 45px;
+	/*background: rgba(255,6,6,.5);*/
+	border-bottom: 1px solid #bcd1cb;
+	background: url(../img/nav.jpg);
+}
+
+nav ul{
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 1000px;
+	height: 45px;
+	/*background: rgba(0,0,255,.5);*/
+}
+
+nav ul li{
+	float: left;
+	width: 124px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	/*background: rgba(0,0,255,.5);*/
+	border-right: 1px solid #bcd1cb;
+}
+
+/* fin Barra de navegación*/
+
+
+/*slide -- es un id por eso lleva #*/
+
+#slide {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 301px;
+	/*background: rgba(0,0,255,.5);*/
+}
+
+/* fin slide*/
+
+/* botonera slide*/
+
+#botoneraSlide{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 26px;
+	/*background: rgba(70,255,0,.5);*/
+	background: url(../img/backBotonesSlide.jpg);
+
+}
+
+
+#botoneraSlide ul{
+	position: relative;
+	margin: auto;
+	width: 100px;
+	height: 26px;
+	/*background: rgba(255,255,0,.5);*/
+}
+
+
+#botoneraSlide ul li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #232d80;
+	border: 3px solid white;
+	margin: 3px 2px;
+}
+
+/* fin botonera slide*/
+
+
+/*Section*/
+
+/* Section del Index*/
+section#inicio{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 520px;
+	/*background: rgba(0,255,0,.5);*/
+	background: white;
+
+}
+
+section#inicio ul li{
+	float: left;
+	width: 500px;
+	height: 100px;
+/*	background: rgba(0,255,255,.5);*/
+}
+
+section#inicio ul li h1{
+	margin: 23px 27px;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+section#inicio ul li p{
+	margin: 23px 28px;
+	font-size: 15px;
+}
+
+section#inicio ul li img{
+	margin: 1px 29px;
+	width: 400px;
+	height: 200px;
+	/*background: silver;*/
+
+}
+/* Section del Index*/
+
+/* Section del Index 2*/
+section#inicio2{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 1200px;
+	/*background: rgba(0,255,0,.5);*/
+	background: white;
+
+}
+
+/* Section del Index*/
+
+/* section quienes Somos*/
+
+section#quienesSomos{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 700px;
+	/*background: rgba(0,255,0,.5);*/
+	/*background: url(../img/quienesSomos.jpg);*/
+	background: white;
+
+}
+
+section#quienesSomos h1{
+	position: relative;
+	top: 15px;
+	left: 27px;
+	color: #1f1d21;
+	font-weight: 100;
+
+}
+
+section#quienesSomos hr{
+	position: relative;
+	top: 20px;
+	width: 950px;
+	margin: auto;
+	border: 1px solid #c6c6c6c6;
+}
+
+section#quienesSomos p{
+	position: relative;
+	top: 40px;
+	 width: 950px;
+	 margin: auto;
+	 color: #414042;
+	text-align: justify;
+}
+
+section#quienesSomos img{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 50px;   
+}
+
+/* fin section quienes Somos*/
+
+
+
+/* section contactenos*/
+
+section#contactenos{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 299px;
+	/*background: rgba(0,255,0,.5);*/
+	background: white;
+}
+
+
+
+section#contactenos form{
+	position: relative;
+	margin: auto;
+	top: 32px;
+	width: 910px;
+	height: 232px;
+	background: white;
+}
+
+section#contactenos form input#nombre{
+	position: absolute;
+	padding: 10px;
+	width: 272px;
+	height: 45px;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form input#email{
+	position: absolute;
+	top: 81px;
+	padding: 10px;
+	width: 272px;
+	height: 45px;
+	background: #dce9d7;
+	border: 0;
+	
+}
+
+
+section#contactenos form input#asunto{
+	position: absolute;
+	bottom: 0px;
+	padding: 10px;
+	width: 272px;
+	height: 45px;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form #mensaje{
+	position: absolute;
+	right: 0px;
+	padding: 10px;
+	width: 581px;
+	height: 128px;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form input#enviar{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 10px;
+	width: 604px;
+	height: 69px;
+	background: #1a1d20;
+	border: 0;
+	color: white;
+}
+
+
+/* fin section contactenos*/
+
+
+/* Fin Section*/
+
+/*Bottom*/
+
+
+
+
+#bottom{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 190px;
+	/*background: rgba(0,0,255,.5);*/
+	background: url(../img/backBottom.jpg);
+
+}
+
+#bottom ul li{
+	float: left;
+	width: 250px;
+	height: 190px;
+/*	background: rgba(0,0,255,.5);*/
+}
+
+
+#bottom ul li h1{
+	margin: 13px 18px; 
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+
+}
+
+#bottom ul li ol{
+	position: relative;
+	top: 15px;
+	left: 17px;
+	width: 190px;
+	height: 80px;
+	/*background: rgba(255,0,0,.5);*/
+}
+
+#bottom ul li ol li{
+	height: 20px;
+	text-align: left;
+	list-style: inside;
+	font-size: 15px;
+	color: white;	
+	/*list-style-image: url(../img/list.png);*/
+}
+
+#bottom ul li img{
+	position: relative;
+	top:15px;
+	left: 15px;
+	width: 95px;
+	height: 95px;
+	border: 4px solid white;
+	/*background: silver;*/
+	background: url(../galeria/1-.jpeg);
+	background-size: cover;
+}
+
+#bottom ul li ul{
+	position: relative;
+	top: 11px;
+	left: 15px;
+	width: 200px;
+	/*height: 40px;background: rgba(255,0,255,.5);*/
+}
+
+#bottom ul li ul li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: white;
+	margin: 5px;
+}
+
+#bottom ul li ul li:first-child {
+	background: url(../img/facebook.jpg);
+	background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(2) {
+	background: url(../img/iconoGoogle.jpg);
+	background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(3) {
+	background: url(../img/iconoPinterest.jpg);
+	background-size: cover;
+}
+
+#bottom ul li ul li:last-child {
+	background: url(../img/iconoTwitter.jpg);
+	background-size: cover;
+}
+
+#bottom ul li ul li a{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+
+}
+
+/* Fin Bottom*/
+
+/*footer*/
+
+footer{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 62px;
+	/*background: rgba(255,0,0,.5);*/
+	text-align: center;
+	color: white;
+	line-height: 62px;
+	font-size: 15px;
+	background: black;	
+	
+}
+
+
+
+/* Fin footer
